@@ -1,0 +1,1 @@
+AuthUserFile /home/ubuntu/workspace/.htpasswd AuthGroupFile /dev/null AuthName "main.html" AuthType Basic require valid-user 
