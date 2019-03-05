@@ -2,7 +2,7 @@ body {
 
 font-family: arial, helvetica, sans-serif;
 	
-	background-color: rgb(150,150,150);
+	background-color: rgb(200,200,200);
 	background-attachment:fixed;
 	background-size:cover;
 	font-size: 15px;
@@ -28,7 +28,7 @@ table, th, td {
 header {
 
 	top:0px;
-	background:rgb(100, 25.1, 25.1);
+	background:rgb(100, 26, 26);
 	color:turquoise;
 	border-bottom: 3px solid;
 	min-height:100px;
@@ -72,7 +72,7 @@ header a:hover{
 	display: block;
 }
 #readable{
-	background:rgb(100, 25.1, 25.1);
+	background:rgb(100, 26, 26);
 	line-height:2;
 	text-align:center;
 	color:turquoise;
@@ -87,7 +87,7 @@ header a:hover{
 
 footer {
 	text-align:center;
-	background:rgb(100, 25.1, 25.1);
+	background:rgb(100, 26, 26);
 	color:turquoise;
 	border-top:3px solid;
 	min-height:100px;
