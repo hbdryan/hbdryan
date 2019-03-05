@@ -2,13 +2,13 @@ body {
 
 font-family: arial, helvetica, sans-serif;
 	
-	
+	background-color: rgb(150,150,150);
 	background-attachment:fixed;
 	background-size:cover;
 	font-size: 15px;
 	line-height: 1.5;
 }
-header h1, nav, .rocks {
+header h1 {
 
 		float:none;
 		width:100%;
@@ -22,8 +22,8 @@ header h1, nav, .rocks {
 	display: block;
 }
 table, th, td {
-  border: 1px solid black;
-
+  	border: 1px solid black;
+	text-align: center;
 }
 header {
 
@@ -62,12 +62,14 @@ header a:hover{
 	color:lightblue;
 }
 
-#showcase {
-	
-	
-	
-	
-	
+#rocks{
+	width:75%;
+	background-color: white;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	overflow:hidden;
+	display: block;
 }
 #readable{
 	background:rgb(100, 25.1, 25.1);
@@ -82,9 +84,7 @@ header a:hover{
 	padding-bottom:5px;
 
 }
-#rocks{
-	text-align:center;
-}
+
 footer {
 	text-align:center;
 	background:rgb(100, 25.1, 25.1);
@@ -94,7 +94,4 @@ footer {
 }
 footer a {
 	color:white;
-}/*COMMENT*/
-@media(max-width: 1400px) {
-	
 }
