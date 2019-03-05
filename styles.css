@@ -8,19 +8,29 @@ font-family: arial, helvetica, sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 }
+header h1, nav, .rocks {
+
+		float:none;
+		width:100%;
+	}
 .container {
-	width:50%;
+	width:100%;
 	margin-left: auto;
-    	margin-right: auto;
+    margin-right: auto;
+    text-align: center;
 	overflow:hidden;
 	display: block;
+}
+table, th, td {
+  border: 1px solid black;
+
 }
 header {
 	position:sticky;
 	top:0px;
-	background:rgb(0, 0, 0);
-	color:lime;
-	border-bottom:lime 3px solid;
+	background:rgb(100, 25.1, 25.1);
+	color:turquoise;
+	border-bottom: 3px solid;
 	min-height:100px;
 }
 header h1 {
@@ -60,10 +70,11 @@ header a:hover{
 	
 }
 #readable{
-	background:rgb(50, 50, 50);
+	background:rgb(100, 25.1, 25.1);
 	line-height:2;
 	text-align:center;
-	color:white;
+	color:turquoise;
+	
 	font-size: 20;
 	padding-right:20px;
 	padding-left:20px;
@@ -76,25 +87,14 @@ header a:hover{
 }
 footer {
 	text-align:center;
-	background:rgb(0, 0, 0);
-	color:lime;
-	border-top:lime 3px solid;
+	background:rgb(100, 25.1, 25.1);
+	color:turquoise;
+	border-top:3px solid;
 	min-height:100px;
 }
 footer a {
 	color:white;
 }/*COMMENT*/
 @media(max-width: 1400px) {
-	header h1, nav, .rocks {
-		color:purple;
-		float:none;
-		width:100%;
-	}
-}
-@media (max-width: 1400px) {
-	 
-	 	#readable{
-		background: rgb(50,50,50);
-	}
 	
 }
